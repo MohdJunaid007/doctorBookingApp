@@ -1,0 +1,58 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#health-advice {
+  font-size: 18px;
+  font-style: italic;
+  color: #666;
+  margin-top: 10px;
+  text-align: center;
+  max-width: 80%; /* Limit the width to avoid excessively long lines */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.register-form {
+  border: 1px solid gray;
+  padding: 30px;
+}
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.left-column img {
+  max-width: 100%; /* Ensures the image does not exceed the width of its container */
+  height: auto; /* Allows the image to scale proportionally with its width */
+  display: block; /* Ensures no extra space below the image */
+}
+
+.header {
+  width: 100%;
+  background-color: rgb(105, 179, 203);
+  padding: 20px 0;
+}
+
+.header h2 {
+  margin: 0;
+  color: #333; /* Optional: Change text color for better contrast */
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .left-column, .right-column {
+    flex: 100%;
+  }
+}

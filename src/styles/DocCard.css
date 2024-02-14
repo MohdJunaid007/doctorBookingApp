@@ -1,0 +1,75 @@
+.card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .appointments-container {
+    text-align: center;
+    margin: 20px; /* Add margin to the top */
+  }
+
+  /* .appointment-table {
+    background-color: #dff7fa !important;
+  } */
+  
+  .appointments-container .ant-table-row:hover {
+    background-color: #f5f5f5; /* Change background color on hover */
+  }
+  .card-header{
+    background-color: rgb(105, 179, 203);
+  }
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-header .doctor-icon {
+    margin-right: 10px;
+  }
+  
+  .card-body p {
+    margin-bottom: 8px;
+  }
+  
+  .card-body p b {
+    font-weight: bold;
+  }
+  
+  .card-body p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .apply-doctor-form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .personal-details,
+  .professional-details {
+    margin-bottom: 30px;
+  }
+  
+  .form-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 576px) {
+    .personal-details,
+    .professional-details {
+      margin-bottom: 20px;
+    }
+  }
+  
